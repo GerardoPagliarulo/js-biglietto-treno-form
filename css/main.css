@@ -166,3 +166,25 @@ button:focus {
     }
   }
 
+
+/* RESPONSIVE */
+/* SMALL DEVICES */
+@media all and (min-width: 200px) and (max-width: 767px) {
+    .wrapper h1:nth-child(2) {
+        font-size: 22px;
+    }
+
+    #biglietto {
+        padding: 0px;
+    }
+
+    #biglietto h3,
+    .nome h2 {
+        font-size: 15px;
+    }
+
+    .offerta tr {
+        font-size: 12px;
+        height: 20px;
+    }
+}
