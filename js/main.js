@@ -73,11 +73,11 @@ bottoneAnnulla.addEventListener('click',
         fasciaEta = document.getElementById('fascia-eta').value = 'minorenne';
         
         // Reset valori nella pagina
-        //offerta = document.getElementById('offerta-applicata').innerHTML = '';
-        //numeroCarrozza = document.getElementById('carrozza').innerHTML = '';
-        //codiceCp = document.getElementById('codice-cp').innerHTML = '';
-        //costoBiglietto = document.getElementById('costo').innerHTML = '';
-        //nome = document.getElementById('nome-passeggero').innerHTML = '';
+        offerta = document.getElementById('offerta-applicata').innerHTML = '';
+        numeroCarrozza = document.getElementById('carrozza').innerHTML = '';
+        codiceCp = document.getElementById('codice-cp').innerHTML = '';
+        costoBiglietto = document.getElementById('costo').innerHTML = '';
+        nome = document.getElementById('nome-passeggero').innerHTML = '';
 
         // Nascondi biglietto
         container.className = 'hidden';

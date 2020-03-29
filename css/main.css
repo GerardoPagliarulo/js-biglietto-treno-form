@@ -10,27 +10,6 @@ body {
 }
 
 
-/* UTILITIES */
-.show {
-    opacity: 1;
-    animation: scroll 1s ease;
-}
-
-.hidden {
-    opacity: 0;
-    transition: .5s linear;
-}
-
-@keyframes scroll {
-    from {
-      transform: translateY(20px);
-    }
-    to {
-      transform: translateY(0px);
-    }
-  }
-
-
 /* BACKGOUND IMAGE */
 .wrapper {
     position: relative;
@@ -161,3 +140,29 @@ button:focus {
 .offerta th {
     padding: 0 10px;
 }
+
+.offerta tr {
+    height: 28px;
+}
+
+
+/* ANIMAZIONE E TRANSIZIONE BIGLIETTO */
+.show {
+    opacity: 1;
+    animation: scroll 1s ease;
+}
+
+.hidden {
+    opacity: 0;
+    /* transition: .5s linear; */
+}
+
+@keyframes scroll {
+    from {
+      transform: translateY(20px);
+    }
+    to {
+      transform: translateY(0px);
+    }
+  }
+
